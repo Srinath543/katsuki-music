@@ -68,7 +68,7 @@ class Userbot(Client):
             )
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, f"**» ᴀɴᴏɴ ダ ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.one.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.one.username}\n✨ **ɪᴅ :** {self.one.id}"
+                    config.LOG_GROUP_ID, f"**» 🤫 𝐌𝐀𝐉𝐉𝐀 𝐌𝐔𝐒𝐈𝐂 𝐄𝐗𝐏𝐑𝐄𝐒𝐒 𝐀𝐑𝐀𝐌𝐁𝐀𝐌 𝐌𝐀𝐌𝐔 🤯 𝐀𝐑𝐀𝐌𝐁𝐀𝐌 .\n\n❄ ɴᴀᴍᴇ :**{self.one.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.one.username}\n✨ **ɪᴅ :** {self.one.id}"
                 )
             except:
                 LOGGER(__name__).error(
